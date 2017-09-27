@@ -38,8 +38,7 @@ install_requires = [
     'six >= 1.8.0']
 
 extras_require={
-    ':python_version<"3"': ['avro == 1.8.1'],
-    ':python_version>="3"': ['future', 'avro-cwl == 1.8.4']  # fork of avro for working with python3
+    'avro': ['avro == 1.8.1'],
 }
 
 setup(name='schema-salad',
